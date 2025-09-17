@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/bs/bs.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <title>SMKN 4 TASIKMALAYA</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <img src="smk4.png" alt="" width="70px" height="70px">&nbsp;
+            <a class="navbar-brand text-primary " href="#">SMKN 4 Tasikmalaya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Beranda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="indentitas.php">Indentitas sekolah</a></li>
+                            <li><a class="dropdown-item" href="sejarah.php">Sejarah</a></li>
+                            <li><a class="dropdown-item" href="visimisi.php">Visi & Misi</a></li>
+                            <li><a class="dropdown-item" href="jurusan.php">jurusan</a></li>
+                            <li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="eskul.php">Ektrakurikuler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.php">Galeri</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- TUTUP NAV -->
+    <!-- SECTION -->
+     <div class="container my-4">
+        <div class="row">
+            <h3>Konsentrasi </h3>
+            <h4 class="text-primary">Keahliaan</h4>
+        </div>
+        <div class="container rounded-5 shadow p-3 my-3 " >
+            <div class="row g-0 flex-nowrap ">
+                <div class="col-4 p-3">
+                    <div class="card border-0 mb-3 align-items-center">
+                        <img src="pplg.png" alt="" width="150" height="150">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <h4>Pengembangan Perangkat Lunak dan Gim (PPLG)</h4><br>
+                    <p>Bidang ini mempersiapkan siswa untuk merancang, mengembangkan, dan mengelola perangkat lunak dan
+                        gim. Siswa akan belajar bahasa pemrograman, pengembangan aplikasi, desain gim, serta pengelolaan
+                        proyek teknologi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container rounded-5 shadow p-3 my-3 ">
+            <div class="row g-0 flex-nowrap">
+                <div class="col-4 ">
+                    <div class="card border-0 mb-3 align-items-center">
+                        <img src="tjkt.png" alt="" width="150" height="150">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <h4>Teknik Komputer dan Jaringan (TKJ)</h4><br>
+                    <p>Konsentrasi ini fokus pada perancangan, pengelolaan, dan pemeliharaan jaringan komputer serta
+                        teknologi telekomunikasi. Siswa dilatih untuk menguasai teknik instalasi jaringan, administrasi
+                        server, dan troubleshooting perangkat jaringan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container rounded-5 shadow p-3 my-3 " >
+            <div class="row g-0 flex-nowrap ">
+                <div class="col-4 p-3">
+                    <div class="card border-0 mb-3 align-items-center">
+                        <img src="toi.png" alt="" width="150" height="150">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <h4>Teknik Otomasi Industri (TOI)</h4><br>
+                    <p>Konsentrasi ini mendalami teknologi otomasi di industri, meliputi pemrograman PLC, robotika, dan
+                        sistem kontrol otomatis untuk meningkatkan efisiensi dan produktivitas di sektor manufaktur.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container rounded-5 shadow p-3 my-3 " >
+            <div class="row g-0 flex-nowrap ">
+                <div class="col-4 p-3">
+                    <div class="card border-0 mb-3 align-items-center">
+                        <img src="tbsm.png" alt="" width="150" height="150">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <h4>Teknik Sepeda Motor (TSM)</h4><br>
+                    <p>Konsentrasi ini mengajarkan keterampilan teknis dalam perbaikan, perawatan, dan modifikasi sepeda
+                        motor, serta pengetahuan bisnis dan kewirausahaan di bidang otomotif roda dua.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container rounded-5 shadow p-3 my-3 " >
+            <div class="row g-0 flex-nowrap">
+                <div class="col-4 p-3">
+                    <div class="card border-0 mb-3 align-items-center">
+                        <img src="dkv.png" alt="" width="150" height="150">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <h4>Desain Komunikasi Visual (DKV)</h4><br>
+                    <p>Bidang ini berfokus pada pengembangan kemampuan kreatif dalam desain grafis, ilustrasi, animasi,
+                        dan media komunikasi visual untuk berbagai kebutuhan industri kreatif.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TUTUP SECTION -->
+    <!-- section foother -->
+    <div class="container-fluid row" style="background-color: cornflowerblue;">
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class=" card-body">
+                        <h1>Hubungi kami</h1>
+                        <hr>
+                        <p>IL.Depok RT. 02 RW.e5 Kel.Sukamenak Kec.Pubaratu
+                            cbrKota Tasi kmalaya 46196</p>
+                        <p>tel:+62265312059</p>
+                        <p>mailto:info@smkn4-tsm.sch.id </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class=" card-body">
+                        <h1>Alamat</h1>
+                        <hr>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.213116362029!2d108.25189907500041!3d-7.329945292678408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1755749264148!5m2!1sid!2sid"
+                            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class=" card-body">
+                        <h1>Media Sosial</h1>
+                        <hr>
+                        <p>https://www.facebook.com/4smkn</p>
+                        <p>https://twitter.com/4smkn</p>
+                        <p>https://www.instagram.com/smkn4tasikmalaya</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class=" card-body">
+                        <h1>Link Eksternal</h1>
+                        <hr>
+                        <p>https://www.kemdikbud.go.id/</p>
+                        <p>https://dapo.dikdasmen.kemdikbud.go.id/</p>
+                        <p>https://psmk.kemdikbud.go.id/</p>
+                        <p>http://disdik.jabarprov.go.id/</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tutup section foother -->
+</body>
+
+</html>

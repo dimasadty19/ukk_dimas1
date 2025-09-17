@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/bs/bs.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <title>SMKN 4 TASIKMALAYA</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <img src="smk4.png" alt="" width="70px" height="70px">&nbsp;
+            <a class="navbar-brand text-primary " href="#">SMKN 4 Tasikmalaya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Beranda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="indentitas.php">Indentitas sekolah</a></li>
+                            <li><a class="dropdown-item" href="sejarah.php">Sejarah</a></li>
+                            <li><a class="dropdown-item" href="visimisi.php">Visi & Misi</a></li>
+                            <li><a class="dropdown-item" href="jurusan.php">jurusan</a></li>
+                            <li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="eskul.php">Ektrakurikuler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.php">Galeri</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- TUTUP NAV -->
+
+    <!-- TUTUP SECTION GALERI -->
+    <img src="smk4.png" class="rounded mx-auto d-block may-4" alt="">
+    <h3 class="my-3 text-center">
+        <p> Identitas</p>
+        <p>Sekolah</p>
+    </h3>
+    <div class="container profil bg-light-subtle rounded-5 p-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+        <div class="row">
+            <div class="col-lg-4">
+                <p>Nama Sekolah</p>
+                <p>NPSN</p>
+                <p>Alamat</p><br>
+                <p>Telp/faks</p>
+                <p>Email</p>
+                <p>Tahun Berdiri/Beroperasi </p>
+                <p>Nomor SK Pendirian</p>
+                <p>Tanggal SK Pendirian</p>
+                <p>Kepemilikan</p>
+            </div>
+            <div class="col-lg-1">
+                <p>:</p>
+                <p>:</p>
+                <p>:</p><br>
+                <p>:</p>
+                <p>:</p>
+                <p>:</p>
+                <p>:</p>
+                <p>:</p>
+                <p>:</p>
+            </div>
+            <div class="col-lg-6">
+                <p>SMKN 4 TASIKMALAYA</p>
+                <p>20276063</p>
+                <p>Jl Depok RT 02 RW 05, Kelurahan Sukamenak, Kecamatan Purbaratu,
+                    Kota Tasikmalaya, Provinsi Jawabarat</p>
+                <p>(0265) 7528981</p>
+                <p>info@smkn4-tsm.sch.id</p>
+                <p>2010</p>
+                <p>420/9/SK-BPPT/2012</p>
+                <p>420/9/SK-BPPT/2012</p>
+                <p>Pemerintah Daerah</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- tutup section foother -->
+     <!-- section foother -->
+    <div class="container-fluid row" style="background-color: cornflowerblue;">
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class=" card-body">
+                        <h1>Hubungi kami</h1> <hr>
+                        <p>IL.Depok RT. 02 RW.e5 Kel.Sukamenak Kec.Pubaratu
+                            cbrKota Tasi kmalaya 46196</p>
+                        <p>tel:+62265312059</p>
+                        <p>mailto:info@smkn4-tsm.sch.id </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class=" card-body">
+                        <h1>Alamat</h1> <hr>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.213116362029!2d108.25189907500041!3d-7.329945292678408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1755749264148!5m2!1sid!2sid"
+                            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class=" card-body">
+                        <h1>Media Sosial</h1> <hr>
+                        <p>https://www.facebook.com/4smkn</p>
+                        <p>https://twitter.com/4smkn</p>
+                        <p>https://www.instagram.com/smkn4tasikmalaya</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class=" card-body">
+                        <h1>Link Eksternal</h1> <hr>
+                        <p>https://www.kemdikbud.go.id/</p>
+                        <p>https://dapo.dikdasmen.kemdikbud.go.id/</p>
+                        <p>https://psmk.kemdikbud.go.id/</p>
+                        <p>http://disdik.jabarprov.go.id/</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
