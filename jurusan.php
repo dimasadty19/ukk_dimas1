@@ -9,13 +9,19 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
     <title>SMKN 4 TASIKMALAYA</title>
+    <style>
+        .backdrop-blur {
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(3px);
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top bg-transparent backdrop-blur">
         <div class="container">
-            <img src="smk4.png" alt="" width="70px" height="70px">&nbsp;
-            <a class="navbar-brand text-primary " href="#">SMKN 4 Tasikmalaya</a>
+            <img src="img/smk4.png" alt="" width="70px" height="70px">&nbsp;
+            <a class="navbar-brand text-black" href="#">SMKN 4 Tasikmalaya</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -51,16 +57,16 @@
     </nav>
     <!-- TUTUP NAV -->
     <!-- SECTION -->
-     <div class="container my-4">
+    <div class="container my-4">
         <div class="row">
             <h3>Konsentrasi </h3>
             <h4 class="text-primary">Keahliaan</h4>
         </div>
-        <div class="container rounded-5 shadow p-3 my-3 " >
+        <div class="container rounded-5 shadow p-3 my-3 ">
             <div class="row g-0 flex-nowrap ">
                 <div class="col-4 p-3">
                     <div class="card border-0 mb-3 align-items-center">
-                        <img src="pplg.png" alt="" width="150" height="150">
+                        <img src="img/pplg.png" alt="" width="150" height="150">
                     </div>
                 </div>
                 <div class="col-8">
@@ -75,7 +81,7 @@
             <div class="row g-0 flex-nowrap">
                 <div class="col-4 ">
                     <div class="card border-0 mb-3 align-items-center">
-                        <img src="tjkt.png" alt="" width="150" height="150">
+                        <img src="img/tjkt.png" alt="" width="150" height="150">
                     </div>
                 </div>
                 <div class="col-8">
@@ -86,11 +92,11 @@
                 </div>
             </div>
         </div>
-        <div class="container rounded-5 shadow p-3 my-3 " >
+        <div class="container rounded-5 shadow p-3 my-3 ">
             <div class="row g-0 flex-nowrap ">
                 <div class="col-4 p-3">
                     <div class="card border-0 mb-3 align-items-center">
-                        <img src="toi.png" alt="" width="150" height="150">
+                        <img src="img/toi.png" alt="" width="150" height="150">
                     </div>
                 </div>
                 <div class="col-8">
@@ -100,11 +106,11 @@
                 </div>
             </div>
         </div>
-        <div class="container rounded-5 shadow p-3 my-3 " >
+        <div class="container rounded-5 shadow p-3 my-3 ">
             <div class="row g-0 flex-nowrap ">
                 <div class="col-4 p-3">
                     <div class="card border-0 mb-3 align-items-center">
-                        <img src="tbsm.png" alt="" width="150" height="150">
+                        <img src="img/tbsm.png" alt="" width="150" height="150">
                     </div>
                 </div>
                 <div class="col-8">
@@ -114,11 +120,11 @@
                 </div>
             </div>
         </div>
-        <div class="container rounded-5 shadow p-3 my-3 " >
+        <div class="container rounded-5 shadow p-3 my-3 ">
             <div class="row g-0 flex-nowrap">
                 <div class="col-4 p-3">
                     <div class="card border-0 mb-3 align-items-center">
-                        <img src="dkv.png" alt="" width="150" height="150">
+                        <img src="img/dkv.png" alt="" width="150" height="150">
                     </div>
                 </div>
                 <div class="col-8">

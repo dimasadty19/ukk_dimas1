@@ -9,13 +9,20 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
     <title>SMKN 4 TASIKMALAYA</title>
+    <style>
+        .backdrop-blur {
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(3px);
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top bg-transparent backdrop-blur">
         <div class="container">
-            <img src="smk4.png" alt="" width="70px" height="70px">&nbsp;
-            <a class="navbar-brand text-primary " href="#">SMKN 4 Tasikmalaya</a>
+            <img src="img/smk4.png" alt="" width="70px" height="70px">&nbsp;
+            <a class="navbar-brand text-black" href="#">SMKN 4 Tasikmalaya</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -50,6 +57,24 @@
         </div>
     </nav>
     <!-- TUTUP NAV -->
+    <div class="container-fluid" id="beranda">
+        <div class="card position-relative text-white rounded-3 border-0 overflow-hidden my-3"
+            style="max-height: 650px">
+            <img src="./img/smk.jpg" class="card-img img-fluid" alt="Gambar"
+                style="max-height: 650px; object-fit: cover" />
+            <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+            <div class="card-img-overlay d-flex flex-column justify-content-end ms-3 mb-5">
+                <div class="rounded-3 text-center p-4" style="max-width: 600px; margin: 0 auto">
+                    <img src=" smk4.png" alt="" class="w-50 mb-5 mx-auto">
+                    <h1 class="text-white mb-0">
+                        <strong>SMKN 4 Tasikmalaya <br /> <span class="text-primary">Sekolah Pusat Keunggulan</span>
+                        </strong>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- section -->
     <!-- tutup section -->
     <div class="container">
@@ -60,7 +85,7 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="card border-0">
-                            <img src="kepala_sekolah-removebg-preview.png" alt="" class=" rounded mx-auto d-block">
+                            <img src="./img/kepala_sekolah-removebg-preview.png" alt="" class=" rounded mx-auto d-block">
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -94,7 +119,7 @@
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
-                                <img src="smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
                             </div>
                             <div class="card-body">
                                 <h3>Smkn4</h3>
@@ -105,7 +130,7 @@
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
-                                <img src="smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
                             </div>
                             <div class="card-body">
                                 <h3>Smkn4</h3>
@@ -126,28 +151,28 @@
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/smkn4.jpg"alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/smkn4.jpg"alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
@@ -203,7 +228,8 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class=" card-body">
-                        <h1>Hubungi kami</h1> <hr>
+                        <h1>Hubungi kami</h1>
+                        <hr>
                         <p>IL.Depok RT. 02 RW.e5 Kel.Sukamenak Kec.Pubaratu
                             cbrKota Tasi kmalaya 46196</p>
                         <p>tel:+62265312059</p>
@@ -212,7 +238,8 @@
                 </div>
                 <div class="col-lg-3">
                     <div class=" card-body">
-                        <h1>Alamat</h1> <hr>
+                        <h1>Alamat</h1>
+                        <hr>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.213116362029!2d108.25189907500041!3d-7.329945292678408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1755749264148!5m2!1sid!2sid"
                             width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
@@ -221,7 +248,8 @@
                 </div>
                 <div class="col-lg-3">
                     <div class=" card-body">
-                        <h1>Media Sosial</h1> <hr>
+                        <h1>Media Sosial</h1>
+                        <hr>
                         <p>https://www.facebook.com/4smkn</p>
                         <p>https://twitter.com/4smkn</p>
                         <p>https://www.instagram.com/smkn4tasikmalaya</p>
@@ -229,7 +257,8 @@
                 </div>
                 <div class="col-lg-3">
                     <div class=" card-body">
-                        <h1>Link Eksternal</h1> <hr>
+                        <h1>Link Eksternal</h1>
+                        <hr>
                         <p>https://www.kemdikbud.go.id/</p>
                         <p>https://dapo.dikdasmen.kemdikbud.go.id/</p>
                         <p>https://psmk.kemdikbud.go.id/</p>
