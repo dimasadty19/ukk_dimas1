@@ -58,14 +58,14 @@
     <!-- section -->
     <?php
     $img = [
-        'img/smkn4.jpg',
-        'img/smkn4.jpg',
-        'img/smkn4.jpg',
-        'img/smkn4.jpg',
-        'img/smkn4.jpg',
-        'img/smkn4.jpg',
-        'img/smkn4.jpg',
-        'img/smkn4.jpg',
+        'img/poto1.png',
+        'img/poto1.png',
+        'img/poto1.png',
+        'img/poto1.png',
+        'img/poto1.png',
+        'img/poto1.png',
+        'img/poto1.png',
+        'img/poto1.png',
     ];
     ?>
     <div class="container">

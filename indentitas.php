@@ -58,7 +58,7 @@
     <!-- TUTUP NAV -->
 
     <!-- TUTUP SECTION GALERI -->
-    <img src="img/smk4.png" class="rounded mx-auto d-block may-4" alt="">
+    <img src="img/smk4.png" class="rounded mx-auto d-block may-4"  alt="" width="250" height="250">
     <h3 class="my-3 text-center">
         <p> Identitas</p>
         <p>Sekolah</p>

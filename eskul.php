@@ -64,28 +64,28 @@
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/basket.png" alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/cinema.png" alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/bulutangki.png" alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/futsal.png" alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
@@ -94,28 +94,28 @@
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/pks.png" alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/irma.png" alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/osis.png" alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="card-body">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/ec.png" alt="" class="w-100 h-50">
                             </div>
                         </div>
                     </div>

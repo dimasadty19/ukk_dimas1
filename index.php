@@ -144,78 +144,78 @@
         <!-- TUTUP AECTION BERITA -->
 
         <!-- SECTION GALERY -->
-    <?php
-    $img = [
-        'img/smkn4.jpg',
-        'img/smkn4.jpg',
-        'img/smkn4.jpg',
-        'img/smkn4.jpg',
-    ];
-    ?>
-    <div class="container">
-        <div class="row my-4">
-            <div class="col-lg-12">
-                <h2 class="text-center">Galeri</h2>
-                <hr>
-                <div class="row">
-                    <?php foreach ($img as $key): ?>
-                        <div class="col-lg-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="<?= $key; ?>" class="w-100 h-50">
+        <?php
+        $img = [
+            'img/poto1.png',
+            'img/poto1.png',
+            'img/poto1.png',
+            'img/poto1.png',
+        ];
+        ?>
+        <div class="container">
+            <div class="row my-4">
+                <div class="col-lg-12">
+                    <h2 class="text-center">Galeri</h2>
+                    <hr>
+                    <div class="row">
+                        <?php foreach ($img as $key): ?>
+                            <div class="col-lg-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="<?= $key; ?>" class="w-100 h-50">
+                                    </div>
                                 </div>
                             </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-4">
+            <div class="btn btn-primary">intip lainya
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card text-center border-0">
+                            <div class="card-body">
+                                <h3>1500</h3>
+                                siswa
+                            </div>
                         </div>
-                    <?php endforeach; ?>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center border-0">
+                            <div class="card-body">
+                                <h3>50</h3>
+                                Pendidik
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center border-0">
+                            <div class="card-body">
+                                <h3>5</h3>
+                                jurusan
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center border-0">
+                            <div class="card-body">
+                                <h3>40</h3>
+                                Romel
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-                    <div class="text-center my-4">
-                        <div class="btn btn-primary">intip lainya
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-3">
-                                    <div class="card text-center border-0">
-                                        <div class="card-body">
-                                            <h3>1500</h3>
-                                            siswa
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="card text-center border-0">
-                                        <div class="card-body">
-                                            <h3>50</h3>
-                                            Pendidik
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="card text-center border-0">
-                                        <div class="card-body">
-                                            <h3>5</h3>
-                                            jurusan
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="card text-center border-0">
-                                        <div class="card-body">
-                                            <h3>40</h3>
-                                            Romel
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
+    </div>
     </div>
     <!-- section foother -->
     <div class="container-fluid row" style="background-color: cornflowerblue;">
