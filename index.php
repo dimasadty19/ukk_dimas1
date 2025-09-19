@@ -119,22 +119,22 @@
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/berita1.jpg" alt="" class="w-100 h-50">
                             </div>
                             <div class="card-body">
-                                <h3>Smkn4</h3>
-                                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                                <h6>Cegah Geng Motor, SMKN di Tasikmalaya Luncurkan Ekstrakurikuler Unik</h6>
+                                <a href="https://bandung.kompas.com/read/2024/07/24/115239678/cegah-geng-motor-smkn-di-tasikmalaya-luncurkan-ekstrakurikuler-unik" class="btn btn-primary">Baca Selengkapnya</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                                <img src="img/berita2.jpg" alt="" class="w-100 h-50">
                             </div>
                             <div class="card-body">
-                                <h3>Smkn4</h3>
-                                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                                <h6>Safety Riding Lab, SMKN 4 Tasikmalaya Tekankan Keselamatan Berkendara</h6>
+                                <a href="https://jabarekspres.com/berita/2024/05/20/safety-riding-lab-smkn-4-tasikmalaya-tekankan-keselamatan-berkendara/2/" class="btn btn-primary">Baca Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -144,38 +144,33 @@
         <!-- TUTUP AECTION BERITA -->
 
         <!-- SECTION GALERY -->
-        <div class="row">
+    <?php
+    $img = [
+        'img/smkn4.jpg',
+        'img/smkn4.jpg',
+        'img/smkn4.jpg',
+        'img/smkn4.jpg',
+    ];
+    ?>
+    <div class="container">
+        <div class="row my-4">
             <div class="col-lg-12">
                 <h2 class="text-center">Galeri</h2>
+                <hr>
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
+                    <?php foreach ($img as $key): ?>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="<?= $key; ?>" class="w-100 h-50">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="img/smkn4.jpg" alt="" class="w-100 h-50">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="img/smkn4.jpg"alt="" class="w-100 h-50">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="img/smkn4.jpg"alt="" class="w-100 h-50">
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
                     <div class="text-center my-4">
                         <div class="btn btn-primary">intip lainya
                         </div>
